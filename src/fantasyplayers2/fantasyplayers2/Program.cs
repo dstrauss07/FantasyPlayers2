@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace fantasyplayers2
+namespace StraussDa.fantasyplayers2
 {
     public class Program
     {

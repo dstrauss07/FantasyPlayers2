@@ -1,0 +1,34 @@
+﻿@model StraussDa.ApplicationCore.Entities.Player
+
+<form asp-action="@ViewData["Action"]">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="FirstName" class="control-label"></label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName" class="control-label"></label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Team" class="control-label"></label>
+        <input asp-for="Team" class="form-control" />
+        <span asp-validation-for="Team" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Pos" class="control-label"></label>
+        <input asp-for="Pos" class="form-control" />
+        <span asp-validation-for="Pos" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PosRank" class="control-label"></label>
+        <input asp-for="PosRank" class="form-control" />
+        <span asp-validation-for="PosRank" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
+</form>

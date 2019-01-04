@@ -1,6 +1,6 @@
 using System;
 
-namespace fantasyplayers2.Models
+namespace StraussDa.fantasyplayers2.Models
 {
     public class ErrorViewModel
     {

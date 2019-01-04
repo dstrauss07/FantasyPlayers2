@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using fantasyplayers2.Models;
+using StraussDa.fantasyplayers2.Models;
 
-namespace fantasyplayers2.Controllers
+namespace StraussDa.fantasyplayers2.Controllers
 {
     public class HomeController : Controller
     {
